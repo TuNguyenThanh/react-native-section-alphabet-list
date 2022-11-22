@@ -91,7 +91,7 @@ export const AlphabetList: React.FC<AlphabetListProps> = (props) => {
         getItemLayout={onGetItemLayout}
       />
 
-      <ListLetterIndex
+<!--       <ListLetterIndex
         sectionData={sectionData}
         onPressLetter={onScrollToSection}
         indexContainerStyle={indexContainerStyle}
@@ -99,7 +99,7 @@ export const AlphabetList: React.FC<AlphabetListProps> = (props) => {
         indexLetterContainerStyle={indexLetterContainerStyle}
         letterListContainerStyle={letterListContainerStyle}
         renderCustomIndexLetter={renderCustomIndexLetter}
-      />
+      /> -->
     </View>
   );
 }
